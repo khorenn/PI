@@ -1,0 +1,34 @@
+* { margin: 0; padding:0; border:0;}
+
+/* background-fixo, podendo ser alterado para outras imagens*/
+body {
+		background: url(img/fundotelas2.png) no-repeat center top fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+/*base estrutural, border usado apenas como direcionamento e visão para auxiliar na implementação de conteúdo, apos o termino sera retirado*/
+header { border:solid 2px;  border-color:#fff;  }
+nav { border:solid 2px;  border-color:#fff;  }
+section { height:500px; border:solid 2px;  border-color:#fff;  }
+footer { border:solid 2px;  border-color:#fff;  }
+
+
+#site {
+		position: absolute;
+		top: 160px;
+		left: 50%;
+		width: 560px;
+		padding: 20px;
+		margin-left: -300px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
+		background: #FFF; /* fundo branco para navegadores que não suportam rgba */
+		background: rgba(255,255,255,0.2); /* fundo branco com um pouco de transparência */
+}
+
+/* configuração geral de escrita */
+
+p { margin-bottom: 1.5em; color:#38bf0f; }
+h1 { color:#e3f2d0; }
+h2 { color:"#fff"; }
