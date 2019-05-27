@@ -16,38 +16,44 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 	</head>
+	<!-- a pagina esta em modo de construção, com algums configurações para melhor visualização ate estar completa -->
 	<body>	
-		<header>
+	<header>
 		
-			<div class="container">
-			<div class="row">
-			<div class="col-sm-12">
+		<div class="container">
+		<div class="row">
+		<div class="col-sm-12">
 			
-				<div class="navbar navbar-dark bg-dark">
-					<a class="navbar-brand" href="index.html">
-					<img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-					Classic Steam
-					</a>
-					<form class="form-inline">
-					<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-					</form>
-				</div>
+			<div class="navbar navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">
+				<!-- local configurado onde ira ficar a logo  -->
+				<img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+				Classic Steam
+				</a>
+				<form class="form-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+				</form>
+			</div>
 				
-			</div>
-			</div>
-			</div>
+		</div>
+		</div>
+		</div>
 			
-		</header>
+	</header>
+	
 		<div class="container">
 		<div class="row">
 		<div class="col-sm-12">
 		
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-				  <li class="nav-item active">
-					<a class="nav-link" href="index.html">Home<span class="sr-only">(Página atual)</span></a>
+			<!-- menu de navegação que ainda falta mais algumas configurações  -->
+			  <nav class="menubar">
+				<ul class="nav nav-tabs">
+				  <li class="nav-item">
+					<a class="nav-link" href="login.html">Login</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link active" href="cadastro.html">Cadastro</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="sobre.html">Sobre</a>
@@ -55,47 +61,120 @@
 				  <li class="nav-item">
 					<a class="nav-link" href="contato.html">Contato</a>
 				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  Login
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					  <a class="dropdown-item" href="cadastro.html">Cadastro</a>
-					  <a class="dropdown-item" href="login.html">Login</a>
-					  <a class="dropdown-item" href="novasenha.html">Esqueceu a senha?</a>
-					</div>
-				  </li>
 				</ul>
-			  </div>
-			</nav>
+				</nav>
 			
 		</div>
 		</div>
 		</div>
-		<section>
+	<section>
 		
-			<div class="container" id="site">
-			<div class="row">
-			<div class="col-sm-12">
-			
-				<h1 class="bg-sucess">Site Exemplo</h1>
-				<p>Lorem ipsum...</p>
+		<div class="container" >
+		<div class="row">
+		<div class="col-sm-12">
 				
+				<div class="login-box" id="site">
+				<h1>Cadastro</h1>
+					<form class="needs-validation" novalidate>
+						<div class="form-row">
+							<div class="col-md-4 mb-3">
+								<label for="validationCustom01">Nome</label>
+								<input type="text" class="form-control" id="validationCustom01" placeholder="Nome" value="Nome" required>
+								<div class="valid-feedback">
+									Tudo certo!
+								</div>
+							</div>
+							<div class="col-md-4 mb-3">
+								<label for="validationCustom02">Sobrenome</label>
+								<input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" value="Sobrenome" required>
+								<div class="valid-feedback">
+									Tudo certo!
+								</div>
+							</div>
+							<div class="col-md-4 mb-3">
+								<label for="validationCustomUsername">Usuário</label>
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text" id="inputGroupPrepend">@</span>
+									</div>
+									<input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend" required>
+									<div class="invalid-feedback">
+										Por favor, escolha um nome de usuário.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="col-md-6 mb-3">
+								<label for="validationCustom03">Cidade</label>
+								<input type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required>
+								<div class="invalid-feedback">
+									Por favor, informe uma cidade válida.
+								</div>
+							</div>
+							<div class="col-md-3 mb-3">
+								<label for="validationCustom04">Estado</label>
+								<input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+								<div class="invalid-feedback">
+									Por favor, informe um estado válido.
+								</div>
+							</div>
+							<div class="col-md-3 mb-3">
+								<label for="validationCustom05">CEP</label>
+								<input type="text" class="form-control" id="validationCustom05" placeholder="CEP" required>
+								<div class="invalid-feedback">
+									Por favor, informe um CEP válido.
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+								<label class="form-check-label" for="invalidCheck">
+									Concordo com os termos e condições
+								</label>
+								<div class="invalid-feedback">
+									Você deve concordar, antes de continuar.
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-success" type="submit">Enviar</button>
+					</form>
+					
+					<script>
+					// Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
+					(function() {
+						'use strict';
+						window.addEventListener('load', function() {
+							// Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
+							var forms = document.getElementsByClassName('needs-validation');
+							// Faz um loop neles e evita o envio
+							var validation = Array.prototype.filter.call(forms, function(form) {
+								form.addEventListener('submit', function(event) {
+									if (form.checkValidity() === false) {
+										event.preventDefault();
+										event.stopPropagation();
+									}
+									form.classList.add('was-validated');
+								}, false);
+							});
+						}, false);
+					})();
+					</script>
 			</div>
-			</div>
-			</div>
-			
-		</section>
-		<footer>
+		</div>
+		</div>
+		</div>
+	</section>
+	<footer>
 		
-			<div class="container">
-			<div class="row">
-			<div class="col-sm-12">
-				<p align="center">Copyright &copy; - ClassicSteam2019</p>
-			</div>
-			</div>
-			</div>
+		<div class="row">
+		<div class="col-sm-12">
+			<p align="center">Copyright &copy; - ClassicSteam2019</p>
+		</div>
+		</div>
+		</div>
 			
-		</footer>	
+	</footer>	
 	</body>
 </html>

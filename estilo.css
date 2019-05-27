@@ -20,13 +20,13 @@ footer { margin-top:50%; }
 
 #site {
 		position: absolute;
-		top: 155px;
-		left: 60%;
-		width: 450px;
+		top: 200px;
+		left: 50%;
+		width: 700px;
 		padding: 30px;
 		margin-left: -350px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
 		background: #FFF; /* fundo branco para navegadores que não suportam rgba */
-		background: rgba(255,255,255,0.2); /* fundo branco com um pouco de transparência */
+		background: rgba(255,255,255,0.3); /* fundo branco com um pouco de transparência */
 }
 
 /* menu estilo*/
@@ -34,7 +34,7 @@ footer { margin-top:50%; }
 
 /* configuração geral de escrita */
 
-p { margin-bottom: 1.5em; color:#38bf0f; }
+p { margin-bottom: 1.5em; color:#e3f2d0; }
 h1 { color:#e3f2d0; }
 h2 { color:"#fff"; }
 
