@@ -16,39 +16,44 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 	</head>
+	<!-- a pagina esta em modo de construção, com algums configurações para melhor visualização ate estar completa -->
 	<body>	
-		<header>
+	<header>
 		
-			<div class="container">
-			<div class="row">
-			<div class="col-sm-12">
+		<div class="container">
+		<div class="row">
+		<div class="col-sm-12">
 			
-				<div class="navbar navbar-dark bg-dark">
-					<a class="navbar-brand" href="index.html">
-					<!-- local configurado onde ira ficar a logo  -->
-					<img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-					Classic Steam
-					</a>
-					<form class="form-inline">
-					<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-					</form>
-				</div>
+			<div class="navbar navbar-dark bg-dark">
+				<a class="navbar-brand" href="index.html">
+				<!-- local configurado onde ira ficar a logo  -->
+				<img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+				Classic Steam
+				</a>
+				<form class="form-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+				</form>
+			</div>
 				
-			</div>
-			</div>
-			</div>
+		</div>
+		</div>
+		</div>
 			
-		</header>
+	</header>
+	
 		<div class="container">
 		<div class="row">
 		<div class="col-sm-12">
 		
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav">
-				  <li class="nav-item active">
-					<a class="nav-link" href="index.html">Home<span class="sr-only">(Página atual)</span></a>
+			<!-- menu de navegação que ainda falta mais algumas configurações  -->
+			  <nav class="menubar">
+				<ul class="nav nav-tabs">
+				  <li class="nav-item">
+					<a class="nav-link active" href="login.html">Login</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="cadastro.html">Cadastro</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="sobre.html">Sobre</a>
@@ -56,47 +61,48 @@
 				  <li class="nav-item">
 					<a class="nav-link" href="contato.html">Contato</a>
 				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  Login
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					  <a class="dropdown-item" href="cadastro.html">Cadastro</a>
-					  <a class="dropdown-item" href="login.html">Login</a>
-					  <a class="dropdown-item" href="novasenha.html">Esqueceu a senha?</a>
-					</div>
-				  </li>
 				</ul>
-			  </div>
-			</nav>
+				</nav>
 			
 		</div>
 		</div>
 		</div>
-		<section>
+	<section>
 		
-			<div class="container" id="site">
-			<div class="row">
-			<div class="col-sm-12">
-			
-				<h1 class="bg-sucess">Site Exemplo</h1>
-				<p>Lorem ipsum...</p>
-				
-			</div>
-			</div>
-			</div>
-			
-		</section>
-		<footer>
+		<div class="container" >
+		<div class="row">
+		<div class="col-sm-12">
 		
-			<div class="container">
-			<div class="row">
-			<div class="col-sm-12">
-				<p align="center">Copyright &copy; - ClassicSteam2019</p>
-			</div>
-			</div>
+			<div class="login-box" id="site">
+				<h1>Nova Senha</h1>
+
+				<div class="textbox">
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<input type="text" placeholder="Username" name="" value="">
+				</div>
+
+				<div class="textbox">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+					<input type="password" placeholder="Password" name="" value="">
+				</div>
+
+				<input class="betn" type="button" name="" value="Sign in">
+				<input class="betn" type="button" name="" value="Esqueceu a senha?" >
 			</div>
 			
-		</footer>	
+		</div>
+		</div>
+		</div>
+	</section>
+	<footer>
+		
+		<div class="row">
+		<div class="col-sm-12">
+			<p align="center">Copyright &copy; - ClassicSteam2019</p>
+		</div>
+		</div>
+		</div>
+			
+	</footer>	
 	</body>
 </html>
