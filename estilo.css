@@ -21,8 +21,8 @@ footer { margin-top:50%; }
 #site {
 		position: absolute;
 		top: 200px;
-		left: 50%;
-		width: 700px;
+		left: 56%;
+		width: 550px;
 		padding: 30px;
 		margin-left: -350px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
 		background: #FFF; /* fundo branco para navegadores que não suportam rgba */
@@ -35,8 +35,8 @@ footer { margin-top:50%; }
 /* configuração geral de escrita */
 
 p { margin-bottom: 1.5em; color:#e3f2d0; }
-h1 { color:#e3f2d0; }
-h2 { color:"#fff"; }
+h1 { color:#fff; }
+h2 { color:#fff; }
 
 /* configuração login */
 .login-box{
@@ -45,7 +45,7 @@ h2 { color:"#fff"; }
     top: 50%;
     left: 50%;
     transform: translate(-1%,-30%);
-    color: green;
+    color: rgb(215, 236, 215);
 }
 .login-box h1{
     text-align: center;
