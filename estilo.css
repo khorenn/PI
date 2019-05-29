@@ -6,7 +6,8 @@ body {
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
+        background-size: cover;
+        overflow-x: hidden;
 }
 
 /*base estrutural, border usado apenas como direcionamento e visão para auxiliar na implementação de conteúdo, apos o termino sera retirado*/
@@ -67,6 +68,12 @@ h2 { color:#fff; }
     float: left;
     text-align: center;
 }
+
+.textbox p {
+    text-align: justify;
+    font-size: 16px;
+}
+
 .textbox input{
     border: none;
     outline: none;
@@ -76,6 +83,13 @@ h2 { color:#fff; }
     width: 80%;
     float: left;
     margin: 0 10px;
+}
+
+
+
+#colorlink {
+    color: #e3f2d0;
+    margin-left: 10px;
 }
 
 .betn{
@@ -88,6 +102,8 @@ h2 { color:#fff; }
     cursor: pointer;
     margin: 12px 0;
 }
+
+
 
 .dir17 { margin-left:17px;}
 
