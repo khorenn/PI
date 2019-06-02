@@ -12,16 +12,16 @@ body {
 
 /*base estrutural, border usado apenas como direcionamento e visão para auxiliar na implementação de conteúdo, apos o termino sera retirado*/
 header { border:;  border-color:;  }
-nav { border:;  border-color:;  }
+nav { border:solid 2px; border-color:#fff;   }
 
-section {}
+section { width:auto;}
 
-footer { margin-top:50%; }
+footer { margin-top:20px; position:botton; }
 
 
 #site {
-		position: absolute;
-		top: 200px;
+		position: relative;
+		top: 220px;
 		left: 56%;
 		width: 550px;
 		padding: 30px;
@@ -31,7 +31,7 @@ footer { margin-top:50%; }
 }
 
 /* menu estilo*/
-.menubar {float:right;}
+.menubar {float:right; overflow:hidden;}
 
 /* configuração geral de escrita */
 
