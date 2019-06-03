@@ -113,7 +113,7 @@ h2 { color:#fff; }
 .dir17 { margin-left:17px;}
 
 /*carousel flipster perfil*/
-.flipster--carousel {
+.flipstercarousel{
     .flipster__item--future-2 {
       transform: translateX(-241%);
   }
