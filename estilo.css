@@ -11,12 +11,10 @@ body {
 }
 
 /*base estrutural, border usado apenas como direcionamento e visão para auxiliar na implementação de conteúdo, apos o termino sera retirado*/
-header { border:;  border-color:;  }
+header { border:solid 2px;;  border-color:#fff;  }
 nav { border:solid 2px; border-color:#fff;   }
-
-section { width:auto;}
-
-footer { margin-top:20px; position:botton; }
+section {}
+footer { margin-top:20px; position: fixed; margin-left: 45%;  }
 
 
 #site {
