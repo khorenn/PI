@@ -11,14 +11,23 @@ body {
 }
 
 /*base estrutural, border usado apenas como direcionamento e visão para auxiliar na implementação de conteúdo, apos o termino sera retirado*/
-header { border:solid 2px;;  border-color:#fff;  }
-nav { border:solid 2px; border-color:#fff;   }
-section {}
-footer { margin-top:20px; position: fixed; margin-left: 45%;  }
+header { }
+nav {  }
+footer { }
 
+.contatos { width:100%; height:auto; overflow:hidden; margin:auto; }
+.cont { width:30%; height:30px; float:left; margin-left:35px;}
+.cont p { color:#B0E2FF; font-weight:500; margin:7px; font-size:12px;}
+.cont img { width:8%; float:left;  padding:5px; }
+@media only screen and (max-width:600px) { 
+	.contatos { width:100%; height:auto; margin:auto; float:left; }
+	.cont { width:100%; height:40px;}
+	.cont p { text-align:center; float:left;  }
+	.cont img { width:5%; height:45%; margin-left:30%; }
+}
 
 #site {
-		position: relative;
+		position: absolute;
 		top: 220px;
 		left: 56%;
 		width: 550px;
@@ -29,7 +38,7 @@ footer { margin-top:20px; position: fixed; margin-left: 45%;  }
 }
 
 /* menu estilo*/
-.menubar {float:right; overflow:hidden;}
+.menubar {float:right;}
 
 /* configuração geral de escrita */
 
@@ -101,7 +110,23 @@ h2 { color:#fff; }
     margin: 12px 0;
 }
 
-
-
 .dir17 { margin-left:17px;}
 
+/*carousel flipster perfil*/
+.flipster--carousel {
+    .flipster__item--future-2 {
+      transform: translateX(-241%);
+  }
+  
+  .flipster__item--future-2 .flipster__item__content { transform: rotateY(45deg) scale(0.8); }
+  
+      .flipster__item--past-2 {
+      transform: translateX(241%);
+  }
+  
+  .flipster__item--past-2 .flipster__item__content { transform: rotateY(-45deg) scale(0.8); }
+  
+  /*    .flipster__item--past .flipster__item__content { 
+      transform: translateX(100%) rotateY(-20deg) scale(0.5);
+    }*/
+}
